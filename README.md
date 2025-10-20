@@ -18,9 +18,11 @@ You can view the deployed version here (after uploading to Netlify or GitHub Pag
    ```bash
    git clone https://github.com/your-username/StopWatch.git
 2. Open the folder:
-   ```cd StopWatch
+   ```bash
+   cd StopWatch
 3. Run the app:
-   ```Open the file index.html in your browser.
+   ```bash
+   Open the file index.html in your browser.
 ## Future Enhancements
 - Add Lap Time tracking
 - Include Dark/Light mode toggle
