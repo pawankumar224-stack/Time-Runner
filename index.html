@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stop Watch</title>
+        <link rel="stylesheet" href="Timer_index.css">
+        <link rel="icon" href="images/hand-holding-a-stopwatch-timer-png.png">
+    </head>
+    <body>
+        <section class="timecontainer">
+            <div class="sectime">
+                <div class="onlytimerbox">
+                    <div class="timebox" id="timer">
+                        <h1>0</h1>
+                    </div>
+                    <div class="timeformate" id="format">
+                        <p>Sec</p>
+                    </div>
+                </div>
+                <div class="actbutton">
+                    <button onclick="reset()">Reset</button>
+                    <button onclick="start()">Start</button>
+                    <button onclick="carryOn()">Continue</button>
+                    <button onclick="stop()">Stop</button>
+                </div>
+            </div>
+            <hr style="border: 1px solid gold;">
+            <div class="alltimes">
+                <button onclick="inMinutes()">In Minutes</button>
+                <button onclick="inHours()">In Hours</button>
+            </div>
+        </section>
+        <script src="   Timer_index.js"></script>
+    </body>
+</html>

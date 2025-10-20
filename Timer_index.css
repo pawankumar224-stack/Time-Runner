@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.907);
+}
+
+.timecontainer{
+    border: 2px solid black;
+    background-color: rgb(101, 2, 126);
+    height: 550px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.timecontainer .sectime{
+    border: 2px solid black;
+    background-color: gold;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.timecontainer .sectime .onlytimerbox .timeformate{
+    color: gold;
+    position: absolute;
+    left: 785px;
+    top: 120px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timecontainer .sectime .timebox{
+    border: 2px solid black;
+    background-color: rgb(101, 2, 126);
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timecontainer .sectime .timebox h1{
+    color: gold;
+    font-size: 200px;
+    font-weight: 500;
+}
+
+
+.timecontainer .sectime .actbutton{
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(101, 2, 126);
+    height: 50px;
+    margin: 0 20px 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectime .actbutton button{
+    color: rgb(101, 2, 126);
+    background-color: gold;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 4px;
+    border: 2px solid gold;
+    transition: all 0.2s;
+}
+
+.sectime .actbutton button:hover{
+    transform: translateY(-3px) ;
+    background-color: rgb(101, 2, 126);
+    color: gold;
+}
+
+.timecontainer .alltimes{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gold;
+    height: 160px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timecontainer .alltimes button{
+    background-color: rgb(101, 2, 126);
+    color: gold;
+    margin: 0 150px 0 120px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 2px solid rgb(101, 2, 126);
+    transition: all 0.2s;
+}
+
+.timecontainer .alltimes button:hover{
+    transform: translateY(-5px);
+    background-color: gold;
+    color: rgb(101, 2, 126);
+}
